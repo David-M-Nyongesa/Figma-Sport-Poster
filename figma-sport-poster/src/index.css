@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+@theme {
+  --font-sans: "Inter"
+}
 /* tailwind didn't have a nice way to do the button lift on hover so I added this, otherwise everything else is tailwindcss */
 .cta-btn {
   transition: all 0.2s ease-in-out;
